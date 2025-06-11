@@ -42,7 +42,7 @@ const Services = () => {
                 </li>
                 <li className="flex items-center space-x-2">
                   <CheckCircle className="text-orange" size={16} />
-                  <span>Calendly setup</span>
+                  <span>Calendar setup</span>
                 </li>
               </ul>
             </CardContent>
@@ -77,7 +77,7 @@ const Services = () => {
                   <Target className="text-orange" size={24} />
                 </div>
                 <h3 className="text-lg font-semibold text-navy mb-2">100-Verified Lead List</h3>
-                <p className="text-gray-600">Built using Apollo.io with verified contact information</p>
+                <p className="text-gray-600">Built with verified contact information and targeted prospects</p>
               </CardContent>
             </Card>
 
@@ -97,7 +97,7 @@ const Services = () => {
                   <CheckCircle className="text-orange" size={24} />
                 </div>
                 <h3 className="text-lg font-semibold text-navy mb-2">Email Delivery</h3>
-                <p className="text-gray-600">Professional delivery via Zoho Mail</p>
+                <p className="text-gray-600">Professional delivery through reliable email infrastructure</p>
               </CardContent>
             </Card>
 
@@ -107,7 +107,7 @@ const Services = () => {
                   <CheckCircle className="text-orange" size={24} />
                 </div>
                 <h3 className="text-lg font-semibold text-navy mb-2">Calendar Booking</h3>
-                <p className="text-gray-600">Direct booking via your Calendly</p>
+                <p className="text-gray-600">Direct booking via your calendar system</p>
               </CardContent>
             </Card>
 
