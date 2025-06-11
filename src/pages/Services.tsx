@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CheckCircle, DollarSign, Clock, Target } from "lucide-react";
+import { CheckCircle, Clock, Target } from "lucide-react";
 
 const Services = () => {
   return (
@@ -15,56 +15,51 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Pricing Structure */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-20">
-          <Card className="p-8 rounded-xl shadow-lg border-2 border-orange">
-            <CardHeader className="p-0 mb-6">
-              <div className="flex items-center space-x-3">
-                <DollarSign className="text-orange" size={32} />
-                <CardTitle className="text-2xl text-navy">Setup Fee</CardTitle>
-              </div>
-            </CardHeader>
-            <CardContent className="p-0">
-              <div className="text-4xl font-bold text-navy mb-4">$1,500</div>
-              <p className="text-gray-600">One-time setup including:</p>
-              <ul className="mt-4 space-y-2">
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="text-orange" size={16} />
-                  <span>Lead list building</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="text-orange" size={16} />
-                  <span>Email copy creation</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="text-orange" size={16} />
-                  <span>Domain warmup</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <CheckCircle className="text-orange" size={16} />
-                  <span>Calendar setup</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
+        {/* Services Overview */}
+        <div className="mb-20">
+          <h2 className="text-3xl font-bold text-navy text-center mb-12">Our Services</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="p-8 rounded-xl shadow-lg border-2 border-orange">
+              <CardHeader className="p-0 mb-6">
+                <CardTitle className="text-2xl text-navy">Complete Setup</CardTitle>
+              </CardHeader>
+              <CardContent className="p-0">
+                <p className="text-gray-600 mb-4">Comprehensive campaign setup including:</p>
+                <ul className="space-y-2">
+                  <li className="flex items-center space-x-2">
+                    <CheckCircle className="text-orange" size={16} />
+                    <span>Lead list building</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <CheckCircle className="text-orange" size={16} />
+                    <span>Email copy creation</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <CheckCircle className="text-orange" size={16} />
+                    <span>Domain warmup</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <CheckCircle className="text-orange" size={16} />
+                    <span>Calendar setup</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
 
-          <Card className="p-8 rounded-xl shadow-lg border-2 border-navy">
-            <CardHeader className="p-0 mb-6">
-              <div className="flex items-center space-x-3">
-                <Target className="text-navy" size={32} />
-                <CardTitle className="text-2xl text-navy">Per Lead</CardTitle>
-              </div>
-            </CardHeader>
-            <CardContent className="p-0">
-              <div className="text-4xl font-bold text-navy mb-4">$300</div>
-              <p className="text-gray-600">Per booked meeting with qualified decision-makers only</p>
-              <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-                <p className="text-sm text-gray-700 font-medium">
-                  💡 You only pay for results - no meetings, no payment
-                </p>
-              </div>
-            </CardContent>
-          </Card>
+            <Card className="p-8 rounded-xl shadow-lg border-2 border-navy">
+              <CardHeader className="p-0 mb-6">
+                <CardTitle className="text-2xl text-navy">Results-Based Approach</CardTitle>
+              </CardHeader>
+              <CardContent className="p-0">
+                <p className="text-gray-600 mb-4">We deliver qualified meetings with decision-makers</p>
+                <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+                  <p className="text-sm text-gray-700 font-medium">
+                    💡 You only pay for results - no meetings, no payment
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
 
         {/* Deliverables */}
