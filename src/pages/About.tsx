@@ -11,7 +11,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-navy mb-6">Who We Are</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Brmara is a solo-run, performance-based lead generation service founded by Rohan Mishra, 
+            Brmara is a performance-based lead generation service by Rohan Mishra, 
             dedicated to helping marketing agencies scale through systematic cold email outreach.
           </p>
         </div>
@@ -121,59 +121,6 @@ const About = () => {
                   </div>
                   <h3 className="text-xl font-semibold text-navy mb-2">Rohan Mishra</h3>
                   <p className="text-gray-600">Founder & Lead Generation Specialist</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Tools Section */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-navy text-center mb-12">Tools We Use</h2>
-          <Card className="p-8 rounded-2xl shadow-lg bg-gray-50">
-            <CardContent className="p-0">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
-                <div>
-                  <div className="bg-white p-4 rounded-lg shadow-sm mb-3">
-                    <div className="w-8 h-8 bg-blue-500 rounded mx-auto"></div>
-                  </div>
-                  <p className="font-medium text-navy">Apollo.io</p>
-                  <p className="text-sm text-gray-600">Lead research</p>
-                </div>
-                <div>
-                  <div className="bg-white p-4 rounded-lg shadow-sm mb-3">
-                    <div className="w-8 h-8 bg-red-500 rounded mx-auto"></div>
-                  </div>
-                  <p className="font-medium text-navy">Zoho Mail</p>
-                  <p className="text-sm text-gray-600">Email delivery</p>
-                </div>
-                <div>
-                  <div className="bg-white p-4 rounded-lg shadow-sm mb-3">
-                    <div className="w-8 h-8 bg-blue-600 rounded mx-auto"></div>
-                  </div>
-                  <p className="font-medium text-navy">Calendly</p>
-                  <p className="text-sm text-gray-600">Booking system</p>
-                </div>
-                <div>
-                  <div className="bg-white p-4 rounded-lg shadow-sm mb-3">
-                    <div className="w-8 h-8 bg-blue-400 rounded mx-auto"></div>
-                  </div>
-                  <p className="font-medium text-navy">Google Forms</p>
-                  <p className="text-sm text-gray-600">Data collection</p>
-                </div>
-                <div>
-                  <div className="bg-white p-4 rounded-lg shadow-sm mb-3">
-                    <div className="w-8 h-8 bg-green-500 rounded mx-auto"></div>
-                  </div>
-                  <p className="font-medium text-navy">Google Sheets</p>
-                  <p className="text-sm text-gray-600">Tracking & reporting</p>
-                </div>
-                <div>
-                  <div className="bg-white p-4 rounded-lg shadow-sm mb-3">
-                    <div className="w-8 h-8 bg-blue-700 rounded mx-auto"></div>
-                  </div>
-                  <p className="font-medium text-navy">PayPal</p>
-                  <p className="text-sm text-gray-600">Payments</p>
                 </div>
               </div>
             </CardContent>

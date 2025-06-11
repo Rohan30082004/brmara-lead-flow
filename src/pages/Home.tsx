@@ -2,7 +2,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Users, Mail, Calendar } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -133,23 +132,6 @@ const Home = () => {
               </Button>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Case Study Teaser */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Card className="p-8 rounded-2xl shadow-lg">
-            <CardContent className="p-0">
-              <h2 className="text-3xl font-bold text-navy mb-4">Success Story</h2>
-              <p className="text-xl text-gray-700 mb-6">
-                <strong>Skyrocket Digital</strong> booked 5 eCommerce meetings in 3 weeks and closed $30K+ in revenue
-              </p>
-              <Button asChild variant="outline" className="border-orange text-orange hover:bg-orange hover:text-white">
-                <Link to="/case-study">View Full Case Study →</Link>
-              </Button>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
